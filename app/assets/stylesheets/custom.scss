@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 /* mixins, variables, etc. */
 
@@ -43,6 +44,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  font-family: 'Lobster', cursive;
 }
 
 h2 {

@@ -74,6 +74,12 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.col-xs-12, .col-sm-6 {
+  background-position: center center; height: 100vh;
+  background-repeat: no-repeat;
+}
+
+
 /* header */
 .navbar-inverse {
     background-color: white;

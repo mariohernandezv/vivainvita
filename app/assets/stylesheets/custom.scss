@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Aguafina+Script');
+@import url('https://fonts.googleapis.com/css?family=Qwigley');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
@@ -55,7 +55,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: 'Aguafina Script', cursive;
+  font-family: 'Qwigley', cursive;
 }
 
 h2 {
@@ -72,6 +72,11 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col-xs-12, .col-sm-6 {
+  
+  border: black 2px;
 }
 
 
@@ -96,7 +101,7 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 15px;
   padding-top: 5px;
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;

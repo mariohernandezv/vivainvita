@@ -75,7 +75,11 @@ p {
 }
 
 .col-xs-12, .col-sm-6 {
-  background-position: center center; height: 100vh;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

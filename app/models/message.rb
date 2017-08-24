@@ -12,6 +12,6 @@ class Message
 
   validates :email, presence: { message: "no puede estar en blanco" }, format: { with: VALID_EMAIL_REGEX, message: "no parece ser una dirección válida" }
 
-  validates :mensaje, presence: { message: "no puede estar en blanco" }, length: { maximum: 5000, message: "no debe exceder los 5000 caracteres" }
+  validates :mensaje, presence: { message: "no puede estar en blanco" }, length: { maximum: 10000, message: "no debe exceder los 10000 caracteres" }
 
 end

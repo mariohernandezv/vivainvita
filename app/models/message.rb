@@ -4,12 +4,14 @@ class Message
   include ActiveModel::Conversion
   include ActiveModel::Validations
 
-  attr_accessor :name, :email, :content
+  attr_accessor :nombre, :email, :mensaje
 
-  validates :name, presence: true
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i 
 
-  validates :email, presence: true
+  validates :nombre, presence: { message: "no puede estar en blanco" }, length: { maximum: 80, message: "no debe exceder los 80 caracteres" }
 
-  validates :content, presence: true
+  validates :email, presence: { message: "no puede estar en blanco" }, format: { with: VALID_EMAIL_REGEX, message: "no parece ser una dirección válida" }
+
+  validates :mensaje, presence: { message: "no puede estar en blanco" }, length: { maximum: 5000, message: "no debe exceder los 5000 caracteres" }
 
 end

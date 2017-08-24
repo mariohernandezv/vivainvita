@@ -10,7 +10,7 @@ class MessagesController < ApplicationController
       MessageMailer.new_message(@message).deliver
       redirect_to root_path, notice: "Tu mensaje ha sido enviado."
     else
-      flash[:alert] = "Ocurrió un error al enviar el mensaje."
+      #flash[:alert] = "Ocurrió un error al enviar el mensaje."
       render :new
     end
   end

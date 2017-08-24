@@ -3,10 +3,10 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def about
+  def invitaciones
   end
 
-  def help
+  def fotografia
   end
 
   def contact

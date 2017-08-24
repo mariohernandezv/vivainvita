@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   get 'password_resets/edit'
 
   root   'static_pages#home'
-  get    '/help',    to: 'static_pages#help'
-  get    '/about',   to: 'static_pages#about'
+  get    '/fotografia',    to: 'static_pages#fotografia'
+  get    '/invitaciones',   to: 'static_pages#invitaciones'
 #  get    '/contact', to: 'static_pages#contact'
 
   get 'contact', to: 'messages#new', as: 'contact'

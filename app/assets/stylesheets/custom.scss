@@ -264,4 +264,9 @@ color: #b94a48;
 background-color: #f2dede;
 }
 
-
+.col-xs-3 .col-xs-offset-2 .col-sm-3 .col-xs-offset-2 {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

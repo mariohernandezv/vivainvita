@@ -229,20 +229,6 @@ input {
   }
 }
 
-
-/* Esto es para el Contacto */
-.hidden { display: none; }
-
-.form-horizontal{
-      list-style-type: none; 
-      text-decoration: none;
-      color: red;
-      cursor: none;
-      li {
-        list-style-type: none; 
-      }
-}
-
 /*flash*/
 
 .alert-error {
@@ -277,4 +263,5 @@ text-align: center;
 color: #b94a48;
 background-color: #f2dede;
 }
+
 

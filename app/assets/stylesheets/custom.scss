@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:500');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300i');
 
 @font-face {
     font-family: 'Open Sans Condensed';
@@ -51,21 +52,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 5em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif ;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -0.5px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
   color: $gray-light;
   font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-size: 3em;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: normal;
+  color: $gray-light;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
@@ -269,4 +281,20 @@ background-color: #f2dede;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.imagen-foto {
+  background: url('img-boda1.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px; 
+  text-align: center;
+  padding-top: 50px;
+  h1, h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+  }
+
 }

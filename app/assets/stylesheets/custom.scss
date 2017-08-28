@@ -73,7 +73,7 @@ h3 {
   font-size: 3em;
   font-style: italic;
   letter-spacing: -0.5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: left;
   font-weight: normal;
   color: $gray-light;
@@ -284,17 +284,16 @@ background-color: #f2dede;
 }
 
 .imagen-foto {
-  background: url('img-boda1.jpg') no-repeat center center; 
+   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 400px; 
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
   h1, h2 {
     color: white;
     text-shadow: 1px 1px 1px #000000;
   }
-
 }

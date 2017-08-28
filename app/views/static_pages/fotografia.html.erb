@@ -7,12 +7,26 @@
 
 <div class="row">
 	<div class="col-md-4 col-md-offset-2">
-		<h3>Photoshoots</h3>
+		<h3>Recuerdos para toda la vida</h3>
 		<p>Una sesión planificada para capturar los mejores recuerdos familiares, de pareja o simplemente tu mejor momento.</p>
 	</div>	
 </div>
 
-<hr align="center" noshade="noshade" size="20" width="100%" />
+<hr align="center" size="5" width="100%" />
+
+<div class="imagen-foto", style = "background: url(<%= asset_path 'eventos.jpg' %>) no-repeat center center;">
+		<h1>Eventos</h1>
+		<h2>Tu celebración merece ser recordada</h2>
+</div>
+
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<h3>Tu celebración merece ser recordada</h3>
+		<p>Luego de haber preparado por tanto tiempo ese festejo especial, asegurate que el recuerdo del mismo esté siempre a tu alcance.</p>
+	</div>
+</div>
+
+<hr align="center" color= black size="5" width="100%" />
 
 <div class="imagen-foto", style = "background: url(<%= asset_path 'img-boda1.jpg' %>) no-repeat center center;">
 		<h1>Bodas</h1>
@@ -21,10 +35,43 @@
 
 <div class="row">
 	<div class="col-md-4 col-md-offset-2">
-		<h3>Bodas</h3>
-		<p>En el día más importante de tu vida deben estar bien acompañados. Déjanos documentar ese momento para toda la vida.</p>
+		<h3>Atesora cada momento de ese día especial</h3>
+		<p>En un día tan importante deben estar bien acompañados. Déjennos acompañarlos y documentar ese momento para toda la vida.</p>
 	</div>
 </div>
 
 
+<!-- Carousel -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 2000,
+      pause: 'false'
+    })
+  });
+</script>
+
+<div class="Row">
+	<div class="container" id="carousel">
+	  <div id="myCarousel" class="carousel slide carousel-fade">
+	    <ol class="carousel-indicators">
+	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#myCarousel" data-slide-to="1"></li>
+	      <li data-target="#myCarousel" data-slide-to="2"></li>
+	    </ol>
+	    <!-- Carousel items -->
+	    <div class="carousel-inner">
+	      <div class="active item">Trabajar con Mario fue una de las partes más fáciles y agradables de nuestra boda. Siempre tuvo en mente el cronograma, lo cual nos dio la certeza que no nos iba a fallar en ningún detalle. El día del evento fue puntual y lo registró de inicio a fin. Tenemos fotos hermosas y naturales que nos hacen revivir la emoción y felicidad de ese día cada vez que las vemos.
+	      <br><span>- Liana y Pedro -</span></div> 
+	      <div class="item">Trabajar con Mario fue una de las partes más fáciles y agradables de nuestra boda. Siempre tuvo en mente el cronograma, lo cual nos dio la certeza que no nos iba a fallar en ningún detalle. El día del evento fue puntual y lo registró de inicio a fin. Tenemos fotos hermosas y naturales que nos hacen revivir la emoción y felicidad de ese día cada vez que las vemos.<br><span>- Liana y Pedro -</span></div>
+	      <div class="item">Trabajar con Mario fue una de las partes más fáciles y agradables de nuestra boda. Siempre tuvo en mente el cronograma, lo cual nos dio la certeza que no nos iba a fallar en ningún detalle. El día del evento fue puntual y lo registró de inicio a fin. Tenemos fotos hermosas y naturales que nos hacen revivir la emoción y felicidad de ese día cada vez que las vemos.<br><span>- Liana y Pedro -</span></div>
+	    </div>
+	    <!-- Carousel nav -->
+	    <!--
+	    <a class="carousel-control left" href="#myCarousel" data-slide="prev" >&lsaquo;Anterior</a>
+	    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;Siguiente</a>
+	    -->
+	  </div>
+	</div> 
+</div>
 

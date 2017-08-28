@@ -76,7 +76,7 @@ h3 {
   margin-bottom: 5px;
   text-align: left;
   font-weight: normal;
-  color: $gray-light;
+  color: black;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -296,4 +296,22 @@ background-color: #f2dede;
     color: white;
     text-shadow: 1px 1px 1px #000000;
   }
+}
+
+.carousel {
+  height: 400px; 
+  background-color: $gray;
+  color:white;
+  text-align: center;
+  font-size: 2em;
+  padding: 40px;
+  margin:20px;
+  span {
+    font-style: italic; 
+    text-align: right;
+  }
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  color: white;
 }

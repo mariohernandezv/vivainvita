@@ -86,15 +86,6 @@ p {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.col-xs-12, .col-sm-6 {
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 
 /* header */
 .navbar-inverse {
@@ -276,15 +267,45 @@ color: #b94a48;
 background-color: #f2dede;
 }
 
-.col-xs-3 .col-xs-offset-2 .col-sm-3 .col-xs-offset-2 {
+.col-md-12 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 450px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+  float: center;
+}
+
+#imagenes-home {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center; 
+  height: 150px; 
+  background-repeat: no-repeat;
+  h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    padding-top: 40px;
+  &:hover {
+    color: grey;
+  }
+  }
 }
 
 .imagen-foto {
-   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -312,6 +333,4 @@ background-color: #f2dede;
   }
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
-  color: white;
-}
+

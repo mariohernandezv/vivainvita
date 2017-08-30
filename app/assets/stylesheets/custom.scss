@@ -326,4 +326,32 @@ img{
   }
 }
 
+/* contacto */
+.contact-final {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px; 
+  background-position: top center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.redes-contacto {
+  padding: 20px;
+  h4, a {
+    color: white;
+    text-decoration: none;
+    padding:6px;
+  }
+  ul {
+    padding:0;
+  }
+  li {
+
+    display: inline-flex;
+  }
+}
+
 

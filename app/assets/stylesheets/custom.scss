@@ -312,6 +312,7 @@ img{
   }
 }
 
+
 .carousel {
   height: 400px; 
   background-color: $gray;
@@ -352,6 +353,17 @@ img{
 
     display: inline-flex;
   }
+}
+
+#row-galeria-inv {
+  display: inline-flex;
+}
+
+#col-galeria-inv {
+  margin:10px;
+  text-align: center;
+  padding:10px;
+  border: 1px solid grey;
 }
 
 
